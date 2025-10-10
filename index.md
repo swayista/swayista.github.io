@@ -2,7 +2,6 @@
 layout: home
 ---
 Welcome — this is my ML blog.
-# 👋 Welcome to My Data Science Blog
 
 Hi! I’m **Swayista Ahmed**, and this is where I share my learnings, projects, and tutorials on  
 **data science**, **machine learning**, and **analytics**.
