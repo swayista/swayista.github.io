@@ -22,7 +22,7 @@ It helps us understand how one variable (the *dependent variable*) changes when 
 
 ---
 
-## 🧩 What is Linear Regression?
+# What is Linear Regression?
 
 Linear regression tries to fit a **straight line** through a set of data points in such a way that the **sum of squared errors** (the distances from each point to the line) is minimized.
 
@@ -45,7 +45,98 @@ Let’s build the idea step by step 👇
 
 ---
 
-### 🌱 Step 1: The goal
+## 🌱 Step 1: The Goal
+
+We have some data — points like:
+
+$$
+(x_1, y_1), (x_2, y_2), \ldots, (x_n, y_n)
+$$
+
+For example:
+
+- \(x\): number of study hours  
+- \(y\): exam marks  
+
+We believe that **as study hours increase, marks increase in a roughly straight-line way**.
+
+So we want a **line** that best describes this relationship:
+
+$$
+\hat{y} = m x + c
+$$
+
+where:
+
+- \(m\) is the **slope** (how much \(y\) changes if \(x\) increases by 1)  
+- \(c\) is the **intercept** (the predicted \(y\) when \(x = 0\))  
+
+---
+
+## 🎯 Step 2: The Idea of “Best Line”
+
+Not all lines will fit the data equally well.  
+So we measure **how far off** our line’s predictions are from the actual points.
+
+For each data point:
+
+$$
+\text{error}_i = y_i - \hat{y}_i = y_i - (m x_i + c)
+$$
+
+We don’t just want the errors to cancel out (some positive, some negative),  
+so we square them (to make all positive):
+
+$$
+\text{Squared Error}_i = (y_i - (m x_i + c))^2
+$$
+
+Then, add them all up:
+
+$$
+\text{Total Error} = \sum_{i=1}^{n} (y_i - (m x_i + c))^2
+$$
+
+---
+
+## ⚙️ Step 3: Minimizing the Error
+
+The goal is to find the **values of \(m\)** and **\(c\)** that make this total error as **small as possible**.  
+
+This is called the **method of least squares**.  
+
+So mathematically, linear regression solves:
+
+$$
+\min_{m,c} \sum_{i=1}^{n} (y_i - (m x_i + c))^2
+$$
+
+That’s an optimization problem — and when you take partial derivatives with respect to \(m\) and \(c\) and set them to zero,  
+you get formulas for the best \(m\) and \(c\).
+
+---
+
+## 🧠 Step 4: Intuition of Slope and Intercept
+
+- The **slope \(m\)** is how much \(y\) changes *on average* when \(x\) increases by one unit.  
+- The **intercept \(c\)** is the average value of \(y\) when \(x = 0\).  
+
+So the line we find is the one that gives the **best average prediction** of \(y\) for a given \(x\).
+
+---
+
+## 💡 Step 5: Broader Intuition
+
+Linear regression is about:
+
+- **Finding patterns** between variables.  
+- **Summarizing data** with the simplest possible model (a straight line).  
+- **Predicting future outcomes** based on those patterns.
+
+---
+
+If you’d like, we can visualize how that “best line” emerges — first with random points, then the line minimizing squared error.
+# Step 1: The goal
 
 We have some data — points like
 [
