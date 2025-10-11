@@ -270,7 +270,6 @@ And the **p-value** is the actual “luckiness” of what you found.
 
 
 # In one line:
-
 > The **p-value** tells you how unlikely your result is,
 > and **α** tells you how unlikely is *too* unlikely.
 > You reject (H_0) when the p-value falls below that threshold.
