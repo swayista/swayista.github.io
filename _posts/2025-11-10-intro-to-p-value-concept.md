@@ -5,10 +5,11 @@ date: 2025-10-10
 categories: [Statistics]
 ---
 
+
 So, we will learn here what is a P-Value and what it does. Let me explain in a very simple way?
 Perfect — let’s make the **p-value** so simple that even a 10-year-old could get it 
 
----
+
 
 # Imagine this:
 
@@ -28,7 +29,6 @@ You’re like  “Whoa, that’s weird! Maybe it *is* lucky?”
 But before you believe your friend, you ask yourself:
  “Could this just be *luck* even if the coin is normal?”
 
----
 
 # That’s where the **p-value** comes in.
 
@@ -36,7 +36,6 @@ The **p-value** answers this question:
 
 > “If the coin were actually fair, what’s the *chance* I’d see results this extreme (9 heads out of 10) just by luck?”
 
----
 
 # So:
 
@@ -44,7 +43,6 @@ The **p-value** answers this question:
   you say: “This is too unlikely to be just luck. Maybe the coin *is* special.”
 * If it’s **big**, like 30%, you say: “Eh, it could easily happen by chance — probably a normal coin.”
 
----
 
 # In one line:
 
@@ -53,12 +51,10 @@ The **p-value** answers this question:
 * Small p-value → “Whoa! That’s surprising! Maybe something real is going on.”
 * Big p-value → “Nah, that could easily happen. Probably just luck.”
 
----
 
 # Kid-friendly summary:
 
 > A p-value is like asking,
 > “If everything were normal, how likely is it I’d see something this weird?”
 
----
 
