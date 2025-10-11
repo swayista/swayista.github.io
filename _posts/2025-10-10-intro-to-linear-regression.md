@@ -57,3 +57,4 @@ model.fit(X, y)
 
 print("Coefficient:", model.coef_)
 print("Intercept:", model.intercept_)
+```
