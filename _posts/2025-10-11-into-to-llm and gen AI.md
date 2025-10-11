@@ -1,8 +1,8 @@
 ---
 layout: post
-title: "Introduction to LLM and GEN AI"
+title: "Introduction to LLM And GEN AI"
 date: 2025-10-10
-categories: [Statistics]
+categories: [Artificial Intelligence]
 ---
 ***Prerequisite- knowledge of ML***
 
