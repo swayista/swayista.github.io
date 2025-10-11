@@ -275,5 +275,6 @@ And the **p-value** is the actual “luckiness” of what you found.
 > You reject (H_0) when the p-value falls below that threshold.
 
 
+<img width="385" height="391" alt="image" src="https://github.com/user-attachments/assets/6b6ff6dd-f3b3-4bf1-8ecf-da1364cf8fb1" />
 
 
