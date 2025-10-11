@@ -9,6 +9,12 @@ Here we will learn about linear regression which is one of the basic algorithm o
 Machine Learning are of three main types-  Supervised Learning, Unsupervised Learning, and Reinforcement Learning
 
 In this post, we’ll explore how it works, what assumptions it makes, and how to implement it in Python.
+
+# Linear Regression
+- In basic terms it is - Imagine you have a bunch of dots on a piece of paper. Each dot shows how tall a plant grew depending on how much water it got. Now, you take a ruler and try to draw one straight line that goes as close as possible to all those dots.
+That line helps you guess how tall a new plant might grow if you give it a certain amount of water.
+
+ “So, linear regression is just finding the best straight line through some dots, so we can make good guesses!”
 - It models the relationship between a dependent variable and one or more independent variables.
 Linear regression is one of the most fundamental algorithms in machine learning and statistics.
 
