@@ -4,7 +4,8 @@ title: "Introduction to Linear Regression"
 date: 2025-10-10
 categories: [Machine Learning]
 ---
-Linear Regression is one of the simplest algorithms in machine learning.
+Here we will learn about linear regression which is one of the basic algorithm of supervised machine learning. Machine learning is a subset of artificial intelligence where systems learn and improve from data without explicit programming.
+Machine Learning are of three main types-  Supervised Learning, Unsupervised Learning, and Reinforcement Learning
 
 In this post, we’ll explore how it works, what assumptions it makes, and how to implement it in Python.
 - It models the relationship between a dependent variable and one or more independent variables.
