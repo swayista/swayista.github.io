@@ -2,3 +2,10 @@ title: "Swayista's ML Blog"
 description: "Exploring and simplifying machine learning concepts"
 theme: minima
 author: Swayista Ahmed
+
+# Base URL setup for user site (must be empty)
+url: "https://swayista.github.io"
+baseurl: ""  # <-- Important: EMPTY, not "/"
+
+theme: minima
+markdown: kramdown
