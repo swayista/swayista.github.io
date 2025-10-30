@@ -7,7 +7,7 @@ categories: [Artificial Intelligence]
 ***Prerequisite- knowledge of ML***
 
 
-### 🧩 1. Start from what you already know: ML basics
+###  1. Start from what you already know: ML basics
 
 You know that in classic ML:
 
@@ -21,7 +21,7 @@ In classification: you predict a discrete label.
 
 ---
 
-### 💬 2. LLMs are *still ML models* — just very large and on text
+###  2. LLMs are *still ML models* — just very large and on text
 
 An **LLM (Large Language Model)** is a neural network — usually a **Transformer** — trained on massive amounts of **text data**.
 
@@ -39,7 +39,7 @@ it learns to assign high probability to “Paris”.
 
 ---
 
-### ⚙️ 3. Under the hood: Transformers
+###  3. Under the hood: Transformers
 
 The **Transformer architecture** (from the 2017 paper *“Attention Is All You Need”*) is the foundation for LLMs like GPT, BERT, LLaMA, etc.
 
@@ -52,7 +52,7 @@ That’s how models understand context, meaning, and relationships between words
 
 ---
 
-### 🧠 4. Training an LLM
+###  4. Training an LLM
 
 Training an LLM happens in **two broad stages**:
 
@@ -70,7 +70,7 @@ Later, models may go through **RLHF (Reinforcement Learning from Human Feedback)
 
 ---
 
-### 🧰 5. Using an LLM is *not* training from scratch
+###  5. Using an LLM is *not* training from scratch
 
 As an ML practitioner, you usually **don’t train** an LLM — you **use** one:
 
@@ -81,7 +81,7 @@ You can then **fine-tune** or **prompt-engineer** them for your task.
 
 ---
 
-### 🧩 6. Key concepts in LLMs
+###  6. Key concepts in LLMs
 
 | Concept            | What it means                                                           |
 | ------------------ | ----------------------------------------------------------------------- |
@@ -94,7 +94,7 @@ You can then **fine-tune** or **prompt-engineer** them for your task.
 
 ---
 
-### 🚀 7. How this connects to your ML knowledge
+###  7. How this connects to ML knowledge
 
 You already know:
 
@@ -107,18 +107,18 @@ So, LLMs are just **ML at scale + language data + deep architectures**.
 
 ---
 
-### 🧭 8. Where to start hands-on
+###  8. Where to start hands-on
 
 If you want to step into it practically:
 
-1. 🔹 **Learn the Transformer concept** (attention, encoder-decoder).
-2. 🔹 Use **Hugging Face Transformers** to load models like `GPT-2`, `BERT`, or `T5`.
-3. 🔹 Experiment with:
+1.  **Learn the Transformer concept** (attention, encoder-decoder).
+2.  Use **Hugging Face Transformers** to load models like `GPT-2`, `BERT`, or `T5`.
+3.  Experiment with:
 
    * Text generation
    * Summarization
    * Fine-tuning small models on your own dataset.
-4. 🔹 Explore **prompt engineering** — how to steer responses without retraining.
+4.  Explore **prompt engineering** — how to steer responses without retraining.
 
 ---
 
@@ -126,7 +126,7 @@ Excellent follow-up — this is a common confusion point. Let’s clear it compl
 
 ---
 
-## 🌐 “Generative AI” vs. “LLM”
+##  “Generative AI” vs. “LLM”
 
 Think of it this way:
 
@@ -139,7 +139,7 @@ So — **LLMs are part of Generative AI**, but **Generative AI is bigger**.
 
 ---
 
-### 🎨 1. What is Generative AI?
+###  1. What is Generative AI?
 
 Generative AI models **learn the patterns in data** (images, text, sound) and then **generate new data that looks like it**.
 
@@ -158,7 +158,7 @@ So, *Generative AI = all these creative model families combined*.
 
 ---
 
-### 💬 2. What makes LLMs special inside Gen AI
+###  2. What makes LLMs special inside Gen AI
 
 LLMs are the **text-generating** branch of Generative AI.
 
@@ -172,7 +172,7 @@ for example, you type “draw a cat wearing sunglasses”, and GPT turns that in
 
 ---
 
-### 🧠 3. Under the hood
+###  3. Under the hood
 
 Generative AI ≈ any **model that outputs new samples** from learned data distribution.
 Mathematically, it tries to model **p(x)** — the probability of data itself — rather than **p(y|x)** (as in supervised ML).
@@ -181,7 +181,7 @@ LLMs are trained to model **p(next_token | previous_tokens)** — a special case
 
 ---
 
-### 🚀 4. Analogy
+###  4. Analogy
 
 Here’s a simple analogy:
 
@@ -194,14 +194,14 @@ Here’s a simple analogy:
 
 ---
 
-### 🧩 5. So in short:
+###  5. So in short:
 
-* ✅ **Every LLM is Generative AI**
-* ❌ **Not every Generative AI model is an LLM** (some generate images, audio, etc.)
+*  **Every LLM is Generative AI**
+*  **Not every Generative AI model is an LLM** (some generate images, audio, etc.)
 
 ---
 
-Perfect 🌱
+
 Here’s a **mental map (and text diagram)** that shows how everything fits together — from *Machine Learning* → *Deep Learning* → *Generative AI* → *LLMs*.
 
 ---
@@ -251,7 +251,7 @@ Here’s a **mental map (and text diagram)** that shows how everything fits toge
 
 ---
 
-### 🧩 To summarize the hierarchy
+###  To summarize the hierarchy
 
 | Level             | Description                             | Examples                 |
 | ----------------- | --------------------------------------- | ------------------------ |
@@ -262,4 +262,4 @@ Here’s a **mental map (and text diagram)** that shows how everything fits toge
 | **LLM**           | A *text-based* generative AI            | ChatGPT, Claude, LLaMA   |
 
 ---
-#### Now After the introduction lets dig in more deeper
+#### Now After the introduction we will dig in more deeper
