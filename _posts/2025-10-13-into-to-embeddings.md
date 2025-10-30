@@ -1,9 +1,7 @@
-Excellent — this sentence is *right at the heart* of how modern machine learning (especially NLP and LLMs) understand meaning.
-Let’s break it down step-by-step in plain terms 👇
 
 ---
 
-###  The sentence:
+###  Embeddings:
 
 > “A model finds potential embeddings by projecting the high-dimensional space of initial data vectors into a lower-dimensional space.”
 
