@@ -1,14 +1,5 @@
----
-layout: post
-title: "Introduction to P-Value"
-date: 2025-10-10
-categories: [Statistics]
----
 
-
-So, we will learn here what is a P-Value and what it does. Let me explain in a very simple way?
-Perfect — let’s make the **p-value** so simple that even a 10-year-old could get it 
-
+### So, we will learn here what is a P-Value and what it does. Let me explain in a very simple way?
 
 
 # Imagine this:
@@ -52,13 +43,13 @@ The **p-value** answers this question:
 * Big p-value → “Nah, that could easily happen. Probably just luck.”
 
 
-# Kid-friendly summary:
+# summary:
 
 > A p-value is like asking,
 > “If everything were normal, how likely is it I’d see something this weird?”
 
 
-Excellent — let’s now move from the kid version 🧒 to the **statistical** version 🎓
+Excellent — let’s now move from the kid version  to the **statistical** version 🎓
 
 
 
@@ -144,7 +135,7 @@ That’s a small number — so we’d likely **reject (H_0)** and suspect the co
 > A **p-value** tells you how rare your result would be if the “no effect” world were real.
 
 
-Perfect 👏 — that’s exactly the next step in building solid intuition about **hypothesis testing**.
+Perfect  — that’s exactly the next step in building solid intuition about **hypothesis testing**.
 Let’s go visual + conceptual to make both **p-value** and **α (alpha)** crystal clear.
 
 
@@ -176,7 +167,7 @@ The **tails** (edges) are rare, extreme results — things that would be surpris
 
 ---
 
-## 🧮 Step 2: The p-value on that curve
+##  Step 2: The p-value on that curve
 
 The **p-value** is the **probability** of getting a result **as extreme or more extreme** than what you observed, *assuming (H_0) is true.*
 
