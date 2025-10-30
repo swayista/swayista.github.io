@@ -8,4 +8,3 @@ all written in simple language and examples.
 
 ##  Latest Posts
 
-Below are my recent posts — automatically listed by the theme 
